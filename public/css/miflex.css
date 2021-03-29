@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: cadetblue;
+    margin: 0px;
+   
+}
+    header{
+        background-color: rgb(33, 145, 145);
+    }
+
+    .form-registro{
+        display:flex;
+        flex-flow:column;
+        background-color: aliceblue;
+        
+      
+      
+    }
+   
+
+    .form-titulo{
+        color:rgb(228, 156, 74);
+        
+         text-align: center;
+        
+}
+   .form-inputs{
+       display: flex;
+   flex-flow: row wrap;
+       justify-content: space-between;
+    /*  al final */   
+       padding: 20px 30px;
+    
+
+     
+     
+   }
+   .input-mitad-ancho{
+    flex: 1 1 40%;
+  
+    
+   }
+
+
+   .input-todo-ancho{
+    flex: 1 1 100%;
+
+   }
+    .btn-reset{
+        flex: 1 1 40%;
+        background-color:goldenrod;
+        color: aliceblue;
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    .btn-enviar{
+        flex: 1 1 40%;
+        background-color: forestgreen;
+        color: aliceblue;
+        padding: 10px;
+        margin-left: 30px;
+         
+    }
+
+    input{
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 2px;
+        margin-left: 20px;
+    }
